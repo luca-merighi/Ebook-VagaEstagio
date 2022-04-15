@@ -1,0 +1,14 @@
+.footer {
+    background-color: var(--dark-green-3);
+    padding: 1rem;
+}
+
+.footer address {
+    font-style: normal;
+    text-align: center;
+    color: var(--white);
+}
+
+.footer address span {
+    color: var(--blue);
+}

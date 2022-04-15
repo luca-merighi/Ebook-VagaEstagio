@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #f1f2f6;
+    --ice: #dfe4ea;
+
+    --black: #2f3542;
+    --black-bf: #2f3542bf;
+
+    --blue: #1e90ff;
+
+    --dark-green-1: #0F949B;
+    --dark-green-2: #19787E;
+    --dark-green-3: #203C3E;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--ice);
+}

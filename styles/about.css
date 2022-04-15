@@ -1,0 +1,43 @@
+#about {
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#about section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#about section h3 {
+    color: var(--black);
+    font-size: 1.25rem;
+}
+
+#about section p {
+    color: var(--black);
+    opacity: 0.875;
+    line-height: 1.5rem;
+}
+
+@media(min-width: 768px) {
+    #about {
+        align-items: center;
+    }
+
+    #about section {
+        width: 75%;
+    }
+}
+
+@media(min-width: 1024px) {
+    #about {
+        padding: 3rem 1.5rem;
+    }
+
+    #about section {
+        width: 50%;
+    }
+}
